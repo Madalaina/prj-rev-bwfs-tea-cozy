@@ -1,0 +1,264 @@
+
+body {
+  background-color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 30;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  background-color: black;
+  height: 69px;
+  margin-right: 870px;
+}
+
+.menu {
+  padding: 20px 0;
+  margin-right: 0px;
+}
+
+.logo img {
+  height: 50px;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+span a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.container1 {
+  position: relative;
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  top: 50px;
+  background-image: url("../images/img-mission-background.jpg");
+  align-items: center;
+  margin: 0 auto;
+}
+
+.babyContainer {
+  display: flex;
+  width: 1200px;
+  background-color: black;
+  flex-direction: column;
+  text-align: center;
+  height: 100px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+ .babyContainer h2 {
+   font-size: 38px;
+   margin-top: 5px;
+   padding-bottom: 0px;
+   margin-bottom: 10px;
+   color: seashell;
+   opacity: 0.9;
+ }
+
+.babyContainer h4 {
+  font-size: 22px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.container2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  text-align: center;
+  top: 120px;
+  background-color: black;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container2 h2 {
+  color: seashell;
+  opacity: 0.9;
+  font-size: 34px;
+  font-family: Helvetica;
+  margin-bottom: 0px;
+}
+
+.container2 h4 {
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  font-family: Helvetica;
+}
+
+ .images {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   position: relative;
+   background-color: black;
+   top: 120px;
+   width: 1000px;
+   margin: 0 auto;
+   justify-content: space-around;
+ }
+
+ .babyContainer1, .babyContainer2, .babyContainer3,
+ .babyContainer4, .babyContainer5  {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .babyContainer1 img, .babyContainer2 img, .babyContainer3 img,
+ .babyContainer4 img, .babyContainer5 img {
+   height: 200px;
+   width: 300px;
+ }
+
+ .babyContainer1 h4, .babyContainer2 h4, .babyContainer3 h4,
+ .babyContainer4 h4, .babyContainer5 h4 {
+
+   width: 300px;
+   text-align: center;
+   font-size: 22px;
+   font-weight: bold;
+   color: seashell;
+   opacity: 0.9;
+   margin-top: 10px;
+ }
+
+.babyContainer4 {
+  margin-right: 15px;
+}
+
+.babyContainer5 {
+  margin-left: 15px;
+}
+
+.images2 {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.container3 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  top: 185px;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+ title {
+  display: flex;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: Helvetica;
+  margin-top: 85px;
+  margin-bottom: 15px;
+}
+
+  .TheLocations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+  .babyContainer6, .babyContainer7, .babyContainer8 {
+    display: flex;
+    top: 100px;
+    background-color: black;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+  }
+
+  .babyContainer6, .babyContainer7 {
+    margin-right: 20px;
+  }
+
+  .babyContainer7, .babyContainer8 {
+    margin-left: 20px;
+  }
+
+  .babyContainer6 h3, .babyContainer7 h3, .babyContainer8 h3 {
+    font-size: 24px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: seashell;
+    opacity: 1;
+  }
+
+  .babyContainer6 p, .babyContainer7 p, .babyContainer8 p {
+    font-size: 20px;
+    color: seashell;
+    opacity: 1;
+    font-family: Helvetica;
+  }
+
+  .Contact {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 190px;
+    margin: 0 auto;
+    background-color: black;
+    width: 1200px;
+    height: 200px;
+  }
+
+  .Contact h2 {
+    color: seashell;
+    opacity: 0.9;
+    font-size: 34px;
+    font-family: Helvetica;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .Contact h5 {
+    color: seashell;
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    position: relative;
+    top: 240px;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  footer h5 {
+    color: seashell;
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: Helvetica;
+  }
